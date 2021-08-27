@@ -24,10 +24,9 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2020081600;				// Plugin released on 16th August 2020.
+$plugin->version   = 2021082700;				// Plugin released on 16th August 2020.
 $plugin->requires  = 2018120300;				// Moodle 3.6.0 is required.
-$plugin->supported = [36];   					// Moodle 3.6.x are supported. Available as of Moodle 3.9.0 or later.
-$plugin->incompatible = 37; 					// Moodle 3.7.x and later are incompatible. Available as of Moodle 3.9.0 or later.
+$plugin->supported = [36,39];   					// Moodle 3.6.x are supported. Available as of Moodle 3.9.0 or later.
 $plugin->component = 'local_courses_clear';	// Declare the type and name of this plugin. Required  as of Moodle 3.0 or later.
 $plugin->maturity = MATURITY_STABLE;				// This is considered as ready for production sites.
 $plugin->release = '1.0.0';						// This is our first release.
